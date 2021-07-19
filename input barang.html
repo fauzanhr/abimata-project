@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" type="text/css" href="styleinputbarang.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -12,21 +13,20 @@
     <h2>Form Input Barang</h2>
     <div>
         <label for="name">Nama Barang</label>
-        <input type="text" placeholder="Nama Barang yang akan di input" required>
+        <input type="text" placeholder="Nama Barang yang akan di input" class="myclass" required>
     </div>
     <div>
         <label for="name">Jumlah Barang (QTY)</label>
-        <input type="text" placeholder="Satuan dalam dus atau galon" required>
+        <input type="text" placeholder="Satuan dalam dus atau galon" class="myclass1" required>
     </div>
     <div>
-        <label for="number">Harga Modal</label>
-        <input type="number" placeholder="Satuan dalam rupiah per QTY" required>
+        <label for="number">Harga Modal (Rp)</label>
+        <input type="number" placeholder="Satuan dalam rupiah per QTY" class="myclass2" maxlength="15" required>
     </div>
     <div>
         <label for="date">Tanggal Pembelian Barang</label>
-        <input type="date">
+        <input type="date" class="myclass3">
     </div>
-    <button type="reset">Reset</button>
     <button type="submit">Submit</button>
 </body>
 </html>
